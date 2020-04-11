@@ -4,7 +4,9 @@
   "description": "jQuery project",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.html",
+    "dev": "parcel index.html",
+    "build": "parcel build",
+    "start": "serve -s build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -16,6 +18,8 @@
     "axios": "^0.19.2",
     "browserslist": "^4.11.1",
     "caniuse-lite": "^1.0.30001040",
-    "parcel-bundler": "^1.12.4"
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.3",
+    "serve": "^11.3.0"
   }
 }
