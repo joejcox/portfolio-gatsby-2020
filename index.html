@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.1/css/bulma.min.css"
+      integrity="sha256-1nEaE91OpXJD7M6W5uSiqxhdmrY+lOOTHC1iUxU9Pds="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./scss/main.scss" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="hero is-fullheight">
+        <div class="hero-body has-text-centered">
+          <div class="container">
+            <p class="socials buttons is-centered">
+              <button class="button is-large">
+                <span class="icon">
+                  <i class="fab fa-github"></i>
+                </span>
+              </button>
+              <button class="button is-large">
+                <span class="icon">
+                  <i class="fab fa-linkedin"></i>
+                </span>
+              </button>
+            </p>
+            <div class="siteinfo">
+              <h1 class="title has-text-white">JOE COX</h1>
+              <h2 class="subtitle is-3 has-text-white">
+                frontent web developer
+              </h2>
+            </div>
+            <div class="ctas buttons is-centered">
+              <button class="button is-primary orange" id="view-work">
+                View Work
+              </button>
+              <a
+                class="button is-outlined"
+                id="get-in-touch"
+                href="mailto:joecoxwebdev@outlook.co.uk"
+              >
+                Get In Touch
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="overlay"></div>
+      </header>
+      <main class="section">
+        <div class="container">
+          <div class="level">
+            <div class="level-left">
+              <h2 class="title is-1">Projects</h2>
+            </div>
+            <div class="level-right">
+              <div class="buttons is-grouped">
+                <button class="button is-primary orange back-btn">
+                  <i class="fa fa-chevron-left"></i> Go Back
+                </button>
+
+                <a
+                  class="button is-warning has-text-white"
+                  href="mailto:joecoxwebdev@outlook.co.uk"
+                >
+                  <i class="fa fa-envelope"></i>Email Me
+                </a>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div class="projects columns is-multiline"></div>
+        </div>
+      </main>
+      <div class="page"></div>
+      <audio src="/assets/audio/project4.ogg" type="audio/ogg" id="sound" />
+      <audio
+        src="/assets/audio/projectclick.ogg"
+        type="audio/ogg"
+        id="soundclick"
+      />
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+    ></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
