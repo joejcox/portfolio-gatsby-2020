@@ -16,7 +16,6 @@
     "axios": "^0.19.2",
     "browserslist": "^4.11.1",
     "caniuse-lite": "^1.0.30001040",
-    "jQuery": "^1.7.4",
     "parcel-bundler": "^1.12.4"
   }
 }

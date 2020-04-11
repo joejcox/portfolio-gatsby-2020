@@ -20,7 +20,7 @@ export function loadIndividualProject(page) {
   $.ajax({
     async: true,
     type: "POST",
-    url: `http://127.0.0.1:5500/pages/${page}.html`,
+    url: `../pages/${page}.html`,
     type: "GET",
     contentType: "text/html",
     success: function (data) {
