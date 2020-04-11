@@ -16,16 +16,16 @@ export function hideProjects() {
   playSoundClick();
 }
 
-const cors = "https://cors-anywhere.herokuapp.com/";
+// const cors = "https://cors-anywhere.herokuapp.com/";
 
 export function loadIndividualProject(page) {
   $.ajax({
-    async: true,
     type: "POST",
-    url: `${cors}https://www.coejox.com/${page}.html`,
-    crossDomain: true,
-    success: function (data) {
+    url: `https://www.coejox.com/${page}.html`,
+    datatype: "html",
+    success: function (data, status) {
       console.log(data);
+      console.log(status);
       $(".page").html($(data));
     },
     error: function () {
